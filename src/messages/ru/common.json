@@ -1,1 +1,43 @@
-{}
+{
+  "nav": {
+    "home": "Главная",
+    "services": "Услуги",
+    "audit": "Аудит",
+    "fertilizer": "Рецепт удобрений",
+    "climate": "Климатический план",
+    "pestDisease": "Защита растений",
+    "irrigation": "План полива",
+    "training": "Обучение",
+    "packages": "Пакеты",
+    "fullControl": "Полное управление",
+    "greenhouse": "Наши теплицы",
+    "partners": "Партнёры",
+    "about": "О нас",
+    "contact": "Контакты"
+  },
+  "cta": {
+    "getConsultation": "Получить консультацию",
+    "viewServices": "Смотреть услуги",
+    "learnMore": "Подробнее",
+    "viewPackages": "Смотреть пакеты",
+    "orderAudit": "Заказать аудит",
+    "orderRecipe": "Заказать рецепт",
+    "orderPlan": "Заказать план",
+    "orderTraining": "Заказать обучение",
+    "requestOffer": "Запросить предложение",
+    "scheduleVisit": "Назначить визит",
+    "selectPackage": "Выбрать пакет",
+    "aboutPartners": "О партнёрах"
+  },
+  "footer": {
+    "slogan": "GroveX — Надёжный партнёр для вашей теплицы.",
+    "rights": "Все права защищены.",
+    "phone": "+994 77 718 78 65",
+    "email": "info@grovex.az",
+    "address": "Баку, Азербайджан"
+  },
+  "meta": {
+    "siteTitle": "GroveX",
+    "siteDescription": "Тепличная консалтинговая компания Азербайджана. Агрономическая поддержка международного уровня для томатных теплиц."
+  }
+}

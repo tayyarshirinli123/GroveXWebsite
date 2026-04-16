@@ -1,1 +1,25 @@
-{}
+{
+  "hero": {
+    "title": "Xəstəlik və Zərərverici İdarəetməsi",
+    "subtitle": "Preventiv prinsipə söykənən mübarizə strategiyası. Müdaxilə xərci erkən diaqnoz ilə azaldılır."
+  },
+  "scope": {
+    "title": "Əhatə",
+    "items": [
+      "Risk xəritəsi — mövsüm, sort və tarixçəyə əsasən",
+      "Monitorinq protokolu (tələlər, skautinq sıxlığı, qeydiyyat)",
+      "Bioloji mübarizə proqramı — faydalı həşərat tətbiqi cədvəli",
+      "Kimyəvi müdaxilə sırası — rotasiya, MRL və PHI nəzərə alınmaqla",
+      "IPM-uyğun qərar ağacı",
+      "Kritik xəstəliklər üçün erkən xəbərdarlıq meyarları"
+    ]
+  },
+  "result": {
+    "title": "Nəticə",
+    "text": "Yazılı mübarizə planı + tətbiq təqvimi + məhsul siyahısı."
+  },
+  "price": {
+    "title": "Qiymət",
+    "amount": "540 AZN"
+  }
+}

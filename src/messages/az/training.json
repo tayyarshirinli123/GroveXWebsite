@@ -1,1 +1,27 @@
-{}
+{
+  "hero": {
+    "title": "Sahə Təlimi",
+    "subtitle": "İstixana komandasının praktiki bacarıqları — nəzəriyyə minimum, sahə tətbiqi maksimum."
+  },
+  "topics": {
+    "title": "Mövzular",
+    "note": "istəyə görə seçilir",
+    "items": [
+      "Bitki balansının oxunması (generativ/vegetativ siqnallar)",
+      "Həftəlik qeydiyyat və monitorinq protokolu",
+      "EC/pH ölçmə, drenaj analizi və gündəlik qərar qəbulu",
+      "Budama, tutma, klipsləmə — keyfiyyət standartları",
+      "Xəstəlik və zərərverici erkən diaqnoz",
+      "Məhsul yığımı və kalibr qərarları"
+    ]
+  },
+  "format": {
+    "title": "Format",
+    "text": "Bir günlük sahə sessiyası — komandanızla birlikdə istixanada. Hər sessiyadan sonra qısa icra qeydi."
+  },
+  "price": {
+    "title": "Qiymət",
+    "amount": "800 AZN",
+    "unit": "gün"
+  }
+}

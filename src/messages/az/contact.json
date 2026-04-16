@@ -1,1 +1,36 @@
-{}
+{
+  "hero": {
+    "title": "Əlaqə",
+    "subtitle": "Görüşü əldə edin. Menecerimiz istixananıza gəlir, vəziyyəti qiymətləndirir və sağlamlıq proqnozu təqdim edir."
+  },
+  "info": {
+    "title": "Əlaqə məlumatları",
+    "phone": "+994 77 718 78 65",
+    "email": "info@grovex.az",
+    "web": "grovex.az",
+    "address": "Bakı, Azərbaycan"
+  },
+  "form": {
+    "title": "Müraciət forması",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "company": "Şirkət / İstixana adı",
+    "phone": "Telefon",
+    "email": "E-poçt",
+    "area": "İstixana həcmi (ha)",
+    "location": "Yerləşmə (rayon)",
+    "note": "Qısa qeyd (istəyə görə)",
+    "submit": "Görüşü Əldə Edin",
+    "success": "Müraciətiniz qəbul edildi. Tezliklə əlaqə saxlayacağıq.",
+    "error": "Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin."
+  },
+  "onboarding": {
+    "title": "Necə işləyir",
+    "steps": [
+      { "step": "1", "title": "Sahə ziyarəti", "text": "Sahəni görürük, vəziyyəti dinləyirik. Öhdəlik yoxdur." },
+      { "step": "2", "title": "Sağlamlıq proqnozu", "text": "Yield gap və potensial üzrə hesabat." },
+      { "step": "3", "title": "Paket seçimi", "text": "Həcmə, mövsümə və hədəfə uyğun." },
+      { "step": "4", "title": "İlk həftədə başlayırıq", "text": "Müqavilə sonrası ilk hesabat 7 gün ərzində." }
+    ]
+  }
+}

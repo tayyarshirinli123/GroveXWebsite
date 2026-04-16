@@ -1,1 +1,39 @@
-{}
+{
+  "hero": {
+    "title": "Tam İdarəetmə",
+    "subtitle": "İstixananın aqronomik idarəetməsini bütünlükdə bizə həvalə edirsiniz. Mütəxəssisimiz sahədə daimi işləyir."
+  },
+  "howItWorks": {
+    "title": "Necə işləyir",
+    "items": [
+      {
+        "title": "Daimi nümayəndə sahədə",
+        "text": "GroveX aqronomu istixananızda tam zamanlı fəaliyyət göstərir"
+      },
+      {
+        "title": "Premium paketin bütün elementləri daxildir",
+        "text": "Plan, hesabat, limitsiz ekspert dəstəyi, gündəlik uzaq nəzarət"
+      },
+      {
+        "title": "Hədəfə bağlı icra",
+        "text": "Razılaşdırılmış kq/m², 1-ci sort faizi və keyfiyyət göstəriciləri əsas götürülür"
+      },
+      {
+        "title": "Gündəlik operativ qərarlar",
+        "text": "Suvarma, iqlim, müdaxilə qərarları birbaşa icra olunur"
+      },
+      {
+        "title": "Beynəlxalq ekspert geri-bağlantısı",
+        "text": "Kritik qərarlarda Delphy, Andre Kool və digər tərəfdaşlarla konsultasiya"
+      }
+    ]
+  },
+  "forWhom": {
+    "title": "Kimlər üçündür",
+    "text": "10+ ha həcmi olan, aqronomik nəticəyə tam zəmanət axtaran istixana sahibləri."
+  },
+  "price": {
+    "title": "Qiymət",
+    "text": "Sahə həcmi, hədəf məhsuldarlıq və mövcud infrastruktur qiymətləndirildikdən sonra fərdi təklif hazırlanır."
+  }
+}

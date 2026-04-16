@@ -1,1 +1,43 @@
-{}
+{
+  "nav": {
+    "home": "Ana Səhifə",
+    "services": "Xidmətlər",
+    "audit": "Audit",
+    "fertilizer": "Gübrə Resepti",
+    "climate": "İqlim Planı",
+    "pestDisease": "Xəstəlik və Zərərverici",
+    "irrigation": "Suvarma Planı",
+    "training": "Təlim",
+    "packages": "Paketlər",
+    "fullControl": "Tam İdarəetmə",
+    "greenhouse": "Öz İstixanamız",
+    "partners": "Tərəfdaşlar",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə"
+  },
+  "cta": {
+    "getConsultation": "Görüşü Əldə Edin",
+    "viewServices": "Xidmətlərə bax",
+    "learnMore": "Ətraflı",
+    "viewPackages": "Paketlərə bax",
+    "orderAudit": "Audit sifariş et",
+    "orderRecipe": "Resept sifariş et",
+    "orderPlan": "Plan sifariş et",
+    "orderTraining": "Təlim sifariş et",
+    "requestOffer": "Təklif istə",
+    "scheduleVisit": "Ziyarət təyin et",
+    "selectPackage": "Paketi seç",
+    "aboutPartners": "Tərəfdaşlar haqqında"
+  },
+  "footer": {
+    "slogan": "GroveX — İstixananız üçün düzgün ortaq.",
+    "rights": "Bütün hüquqlar qorunur.",
+    "phone": "+994 77 718 78 65",
+    "email": "info@grovex.az",
+    "address": "Bakı, Azərbaycan"
+  },
+  "meta": {
+    "siteTitle": "GroveX",
+    "siteDescription": "Azərbaycanın istixana konsaltinq şirkəti. Pomidor istixanaları üçün beynəlxalq səviyyədə aqronomiya dəstəyi."
+  }
+}

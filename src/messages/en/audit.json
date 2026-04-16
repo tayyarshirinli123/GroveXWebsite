@@ -1,1 +1,27 @@
-{}
+{
+  "hero": {
+    "title": "Audit",
+    "subtitle": "Complete agronomic diagnostics — current status, yield gap, and prioritized intervention plan."
+  },
+  "includes": {
+    "title": "What's Included",
+    "items": [
+      "Assessment of greenhouse structure, climate system, and irrigation infrastructure",
+      "Plant generative/vegetative balance check",
+      "Fertilizer and irrigation regime audit (EC/pH, drainage, Na/Cl accumulation)",
+      "Pest and disease risk mapping",
+      "Microclimate and VPD profile assessment",
+      "Yield gap quantification",
+      "Prioritized solution list and yield forecast"
+    ]
+  },
+  "result": {
+    "title": "Deliverable",
+    "text": "Written audit report + on-site discussion session."
+  },
+  "price": {
+    "title": "Price",
+    "amount": "300 AZN",
+    "note": "up to 5 ha"
+  }
+}

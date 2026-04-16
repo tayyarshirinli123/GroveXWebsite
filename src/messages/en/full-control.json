@@ -1,1 +1,39 @@
-{}
+{
+  "hero": {
+    "title": "Full Control",
+    "subtitle": "Delegate your greenhouse's agronomic management entirely to us. Our specialist works on-site full-time."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "items": [
+      {
+        "title": "Permanent on-site representative",
+        "text": "A GroveX agronomist works full-time in your greenhouse"
+      },
+      {
+        "title": "All Premium package elements included",
+        "text": "Plans, reports, unlimited expert support, daily remote monitoring"
+      },
+      {
+        "title": "Target-driven execution",
+        "text": "Agreed kg/m², first-grade percentage, and quality KPIs as the baseline"
+      },
+      {
+        "title": "Daily operational decisions",
+        "text": "Irrigation, climate, and intervention decisions executed directly"
+      },
+      {
+        "title": "International expert feedback loop",
+        "text": "Consultation with Delphy, Andre Kool, and other partners on critical decisions"
+      }
+    ]
+  },
+  "forWhom": {
+    "title": "Who It's For",
+    "text": "Greenhouse owners with 10+ ha seeking full agronomic performance guarantees."
+  },
+  "price": {
+    "title": "Pricing",
+    "text": "A custom proposal is prepared after evaluating site area, target yield, and existing infrastructure."
+  }
+}

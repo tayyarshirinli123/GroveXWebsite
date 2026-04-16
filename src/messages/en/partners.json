@@ -1,1 +1,43 @@
-{}
+{
+  "hero": {
+    "title": "Our International Expert Network",
+    "subtitle": "Ongoing collaboration with specialized consultants from leading greenhouse nations. Recommendations delivered via video call and on-site visits."
+  },
+  "list": [
+    {
+      "name": "Delphy",
+      "country": "Netherlands",
+      "description": "The world's leading greenhouse consultancy."
+    },
+    {
+      "name": "Andre Kool",
+      "country": "Netherlands",
+      "description": "30+ years in greenhouse agronomy, climate, and fertilization expertise."
+    },
+    {
+      "name": "Koppert",
+      "country": "Netherlands",
+      "description": "Greenhouse technologies and operational optimization."
+    },
+    {
+      "name": "Proefstation",
+      "country": "Belgium",
+      "description": "Vegetable greenhouse research and consultancy center."
+    },
+    {
+      "name": "Kagome",
+      "country": "Japan",
+      "description": "Global leader in tomato production and processing technologies."
+    },
+    {
+      "name": "Groen Agro Control",
+      "country": "Netherlands",
+      "description": "International seed selection and variety specialist."
+    }
+  ],
+  "bridge": {
+    "title": "Local Bridge",
+    "name": "Ulvi Shakirli — Head Agronomist",
+    "text": "The key specialist who adapts international expert recommendations to Azerbaijani conditions. 15+ years of local greenhouse experience."
+  }
+}

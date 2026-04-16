@@ -1,1 +1,27 @@
-{}
+{
+  "hero": {
+    "title": "Field Training",
+    "subtitle": "Practical skills for your greenhouse team — minimum theory, maximum field application."
+  },
+  "topics": {
+    "title": "Topics",
+    "note": "selected based on need",
+    "items": [
+      "Reading plant balance (generative/vegetative signals)",
+      "Weekly recording and monitoring protocol",
+      "EC/pH measurement, drainage analysis, and daily decision-making",
+      "Pruning, trellising, clipping — quality standards",
+      "Early pest and disease diagnosis",
+      "Harvest and caliber decisions"
+    ]
+  },
+  "format": {
+    "title": "Format",
+    "text": "One-day field session — together with your team in the greenhouse. A brief execution note follows each session."
+  },
+  "price": {
+    "title": "Price",
+    "amount": "800 AZN",
+    "unit": "day"
+  }
+}

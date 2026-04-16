@@ -1,1 +1,25 @@
-{}
+{
+  "hero": {
+    "title": "Pest & Disease Management",
+    "subtitle": "Prevention-based protection strategy. Intervention costs are reduced through early diagnosis."
+  },
+  "scope": {
+    "title": "Scope",
+    "items": [
+      "Risk map — based on season, variety, and history",
+      "Monitoring protocol (traps, scouting frequency, recording)",
+      "Biological control program — beneficial insect application schedule",
+      "Chemical intervention sequence — with rotation, MRL, and PHI considered",
+      "IPM-compliant decision tree",
+      "Early warning criteria for critical diseases"
+    ]
+  },
+  "result": {
+    "title": "Deliverable",
+    "text": "Written protection plan + application calendar + product list."
+  },
+  "price": {
+    "title": "Price",
+    "amount": "540 AZN"
+  }
+}

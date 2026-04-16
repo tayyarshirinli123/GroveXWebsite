@@ -1,1 +1,36 @@
-{}
+{
+  "hero": {
+    "title": "Contact",
+    "subtitle": "Get a consultation. Our manager visits your greenhouse, assesses the situation, and provides a health prognosis."
+  },
+  "info": {
+    "title": "Contact Information",
+    "phone": "+994 77 718 78 65",
+    "email": "info@grovex.az",
+    "web": "grovex.az",
+    "address": "Baku, Azerbaijan"
+  },
+  "form": {
+    "title": "Inquiry Form",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "company": "Company / Greenhouse Name",
+    "phone": "Phone",
+    "email": "Email",
+    "area": "Greenhouse Area (ha)",
+    "location": "Location (district)",
+    "note": "Brief Note (optional)",
+    "submit": "Get a Consultation",
+    "success": "Your inquiry has been received. We will contact you shortly.",
+    "error": "An error occurred. Please try again."
+  },
+  "onboarding": {
+    "title": "How It Works",
+    "steps": [
+      { "step": "1", "title": "Site Visit", "text": "We visit your site and assess the situation. No obligation." },
+      { "step": "2", "title": "Health Prognosis", "text": "Yield gap and potential report." },
+      { "step": "3", "title": "Package Selection", "text": "Tailored to area, season, and targets." },
+      { "step": "4", "title": "We start within the first week", "text": "First report delivered within 7 days of contract." }
+    ]
+  }
+}

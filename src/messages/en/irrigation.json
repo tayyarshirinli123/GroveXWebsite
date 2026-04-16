@@ -1,1 +1,25 @@
-{}
+{
+  "hero": {
+    "title": "Irrigation Plan",
+    "subtitle": "Daily water management — substrate, drainage, and radiation-based dynamic adjustment."
+  },
+  "scope": {
+    "title": "Scope",
+    "items": [
+      "First irrigation strategy and last watering time",
+      "Shot volume, frequency, and drainage percentage targets",
+      "EC drift and substrate EC management",
+      "Radiation-based automatic adjustment parameters",
+      "Impact on plant load and generative balance",
+      "Separate profiles by season stage"
+    ]
+  },
+  "result": {
+    "title": "Deliverable",
+    "text": "Written plan + daily schedule + adjustment criteria."
+  },
+  "price": {
+    "title": "Price",
+    "amount": "450 AZN"
+  }
+}

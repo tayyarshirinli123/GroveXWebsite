@@ -1,1 +1,43 @@
-{}
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "audit": "Audit",
+    "fertilizer": "Fertilizer Recipe",
+    "climate": "Climate Plan",
+    "pestDisease": "Pest & Disease",
+    "irrigation": "Irrigation Plan",
+    "training": "Training",
+    "packages": "Packages",
+    "fullControl": "Full Control",
+    "greenhouse": "Our Greenhouse",
+    "partners": "Partners",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "cta": {
+    "getConsultation": "Get a Consultation",
+    "viewServices": "View Services",
+    "learnMore": "Learn More",
+    "viewPackages": "View Packages",
+    "orderAudit": "Order Audit",
+    "orderRecipe": "Order Recipe",
+    "orderPlan": "Order Plan",
+    "orderTraining": "Order Training",
+    "requestOffer": "Request Offer",
+    "scheduleVisit": "Schedule a Visit",
+    "selectPackage": "Select Package",
+    "aboutPartners": "About Our Partners"
+  },
+  "footer": {
+    "slogan": "GroveX — The right partner for your greenhouse.",
+    "rights": "All rights reserved.",
+    "phone": "+994 77 718 78 65",
+    "email": "info@grovex.az",
+    "address": "Baku, Azerbaijan"
+  },
+  "meta": {
+    "siteTitle": "GroveX",
+    "siteDescription": "Azerbaijan's greenhouse consultancy. International-level agronomy support for tomato greenhouses."
+  }
+}

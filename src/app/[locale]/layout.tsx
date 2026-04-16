@@ -1,5 +1,6 @@
+import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Inter, Playfair_Display } from "next/font/google";
 import { routing } from "@/i18n/routing";
@@ -21,6 +22,39 @@ const playfair = Playfair_Display({
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "common.meta" });
+
+  return {
+    title: {
+      default: `${t("siteTitle")} — ${t("siteDescription")}`,
+      template: `%s | ${t("siteTitle")}`,
+    },
+    description: t("siteDescription"),
+    metadataBase: new URL("https://grovex.az"),
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        az: "/az",
+        en: "/en",
+        ru: "/ru",
+      },
+    },
+    openGraph: {
+      title: t("siteTitle"),
+      description: t("siteDescription"),
+      siteName: t("siteTitle"),
+      locale,
+      type: "website",
+    },
+  };
 }
 
 export default async function LocaleLayout({

@@ -29,6 +29,7 @@ export default async function TrainingPage({
       priceAmount={t("price.amount")}
       priceUnit={t("price.unit")}
       ctaText={cta("orderTraining")}
+      serviceKey="training"
     />
   );
 }

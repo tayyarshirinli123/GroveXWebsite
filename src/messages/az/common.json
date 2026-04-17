@@ -29,6 +29,14 @@
     "selectPackage": "Paketi seç",
     "aboutPartners": "Tərəfdaşlar haqqında"
   },
+  "crossNav": {
+    "title": "Digər xidmətlər",
+    "subtitle": "İstixananız üçün uyğun formatı seçin"
+  },
+  "floating": {
+    "whatsapp": "WhatsApp ilə yazın",
+    "phone": "Bizə zəng edin"
+  },
   "footer": {
     "slogan": "GroveX — İstixananız üçün düzgün ortaq.",
     "rights": "Bütün hüquqlar qorunur.",

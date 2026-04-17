@@ -28,6 +28,7 @@ export default async function IrrigationPlanPage({
       priceTitle={t("price.title")}
       priceAmount={t("price.amount")}
       ctaText={cta("orderPlan")}
+      serviceKey="irrigation"
     />
   );
 }

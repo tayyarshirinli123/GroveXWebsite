@@ -6,6 +6,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import FloatingContact from "@/components/layout/FloatingContact";
 import "../globals.css";
 
 const inter = Inter({
@@ -80,6 +81,7 @@ export default async function LocaleLayout({
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <FloatingContact />
         </NextIntlClientProvider>
       </body>
     </html>

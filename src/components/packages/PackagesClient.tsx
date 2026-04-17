@@ -3,6 +3,7 @@
 import { Link } from "@/i18n/navigation";
 import { CheckCircle2, Star } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+import ServiceCrossNav from "@/components/shared/ServiceCrossNav";
 
 interface Plan {
   name: string;
@@ -128,6 +129,8 @@ export default function PackagesClient({ data }: Props) {
           </AnimatedSection>
         </div>
       </section>
+
+      <ServiceCrossNav currentKey="packages" />
     </>
   );
 }

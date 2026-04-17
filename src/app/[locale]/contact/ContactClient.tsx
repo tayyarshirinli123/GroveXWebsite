@@ -35,10 +35,38 @@ export default function ContactClient({ data }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitting(true);
-    await new Promise((r) => setTimeout(r, 1000));
+
+    const form = e.currentTarget;
+    const fd = new FormData(form);
+    const get = (k: string) => (fd.get(k)?.toString() || "").trim();
+
+    const firstName = get("firstName");
+    const lastName = get("lastName");
+    const company = get("company");
+    const phone = get("phone");
+    const email = get("email");
+    const area = get("area");
+    const location = get("location");
+    const note = get("note");
+
+    const fullName = [firstName, lastName].filter(Boolean).join(" ");
+    const lines = [
+      `Ad: ${fullName}`,
+      phone && `Telefon: ${phone}`,
+      email && `E-poçt: ${email}`,
+      company && `Şirkət: ${company}`,
+      area && `Sahə: ${area}`,
+      location && `Ünvan: ${location}`,
+      note && `Qeyd: ${note}`,
+    ].filter(Boolean);
+
+    const subject = encodeURIComponent(`GroveX müraciəti — ${fullName || phone}`);
+    const body = encodeURIComponent(lines.join("\n"));
+    window.location.href = `mailto:info@grovex.az?subject=${subject}&body=${body}`;
+
     setSubmitted(true);
     setSubmitting(false);
   }
@@ -87,33 +115,33 @@ export default function ContactClient({ data }: Props) {
                         <label className="block text-sm font-medium text-[var(--text-primary)] mb-1.5">
                           {data.formLabels.firstName} *
                         </label>
-                        <input type="text" required className={inputCls} />
+                        <input name="firstName" type="text" required className={inputCls} />
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-[var(--text-primary)] mb-1.5">
-                          {data.formLabels.lastName} *
+                          {data.formLabels.lastName}
                         </label>
-                        <input type="text" required className={inputCls} />
+                        <input name="lastName" type="text" className={inputCls} />
                       </div>
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-[var(--text-primary)] mb-1.5">
                         {data.formLabels.company}
                       </label>
-                      <input type="text" className={inputCls} />
+                      <input name="company" type="text" className={inputCls} />
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-sm font-medium text-[var(--text-primary)] mb-1.5">
                           {data.formLabels.phone} *
                         </label>
-                        <input type="tel" required className={inputCls} />
+                        <input name="phone" type="tel" required className={inputCls} />
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-[var(--text-primary)] mb-1.5">
-                          {data.formLabels.email} *
+                          {data.formLabels.email}
                         </label>
-                        <input type="email" required className={inputCls} />
+                        <input name="email" type="email" className={inputCls} />
                       </div>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -121,20 +149,20 @@ export default function ContactClient({ data }: Props) {
                         <label className="block text-sm font-medium text-[var(--text-primary)] mb-1.5">
                           {data.formLabels.area}
                         </label>
-                        <input type="text" className={inputCls} />
+                        <input name="area" type="text" className={inputCls} />
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-[var(--text-primary)] mb-1.5">
                           {data.formLabels.location}
                         </label>
-                        <input type="text" className={inputCls} />
+                        <input name="location" type="text" className={inputCls} />
                       </div>
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-[var(--text-primary)] mb-1.5">
                         {data.formLabels.note}
                       </label>
-                      <textarea rows={3} className={inputCls} />
+                      <textarea name="note" rows={3} className={inputCls} />
                     </div>
                     <button
                       type="submit"

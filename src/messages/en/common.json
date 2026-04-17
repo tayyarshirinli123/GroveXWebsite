@@ -29,6 +29,14 @@
     "selectPackage": "Select Package",
     "aboutPartners": "About Our Partners"
   },
+  "crossNav": {
+    "title": "Explore other services",
+    "subtitle": "Choose the format that fits your greenhouse"
+  },
+  "floating": {
+    "whatsapp": "Message us on WhatsApp",
+    "phone": "Call us"
+  },
   "footer": {
     "slogan": "GroveX — The right partner for your greenhouse.",
     "rights": "All rights reserved.",

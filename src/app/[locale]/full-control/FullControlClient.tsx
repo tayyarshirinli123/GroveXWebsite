@@ -3,6 +3,7 @@
 import { Link } from "@/i18n/navigation";
 import { CheckCircle2 } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+import ServiceCrossNav from "@/components/shared/ServiceCrossNav";
 
 interface Props {
   data: {
@@ -89,6 +90,8 @@ export default function FullControlClient({ data }: Props) {
           </div>
         </div>
       </section>
+
+      <ServiceCrossNav currentKey="fullControl" />
     </>
   );
 }

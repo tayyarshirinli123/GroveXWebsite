@@ -8,48 +8,58 @@
   },
   "stats": {
     "yield": "28–30 kg/m²",
-    "yieldLabel": "annual yield in our own greenhouse",
+    "yieldLabel": "annual yield in our own greenhouses",
     "grade": "93–96%",
     "gradeLabel": "first-grade output",
-    "fertilizer": "15–25%",
-    "fertilizerLabel": "typical reduction in fertilizer waste",
-    "water": "10–18%",
-    "waterLabel": "typical reduction in water consumption"
+    "caliber5": "60–75%",
+    "caliber5Label": "share of caliber-5 fruit",
+    "caliber4": "20–25%",
+    "caliber4Label": "share of caliber-4 fruit",
+    "brix": "4.5–5.8",
+    "brixLabel": "Brix reading"
   },
   "services": {
     "title": "Services",
     "subtitle": "One-time assessment or ongoing oversight — choose the format that fits your greenhouse.",
     "audit": {
+      "name": "Audit",
       "tagline": "Complete field diagnostics",
-      "description": "Yield gap, risks, and operational fixes — all in one report."
+      "description": "Yield gap, risks, and operational fixes — all in one report"
     },
     "fertilizer": {
+      "name": "Fertilizer Recipe",
       "tagline": "Analysis-based nutrition program",
-      "description": "Precise recipe aligned to EC/pH, nutrient balance, and crop stage."
+      "description": "Precise recipe aligned to EC/pH, nutrient balance, and crop stage"
     },
     "climate": {
+      "name": "Climate Plan",
       "tagline": "Temperature and humidity regime",
-      "description": "Day/night regime, VPD management, and ventilation strategy."
+      "description": "Day/night regime, VPD management, and ventilation strategy"
     },
     "pestDisease": {
+      "name": "Pest & Disease",
       "tagline": "Preventive protection strategy",
-      "description": "Early diagnosis, biological and chemical intervention schedule."
+      "description": "Early diagnosis, biological and chemical intervention schedule"
     },
     "irrigation": {
+      "name": "Irrigation Plan",
       "tagline": "Daily water management",
-      "description": "Substrate condition, drainage targets, and radiation-based adjustment."
+      "description": "Substrate condition, drainage targets, and radiation-based adjustment"
     },
     "training": {
+      "name": "Training",
       "tagline": "Hands-on field program",
-      "description": "Staff monitoring, recording, and decision-making skills."
+      "description": "Staff monitoring, recording, and decision-making skills"
     },
     "packages": {
+      "name": "Packages",
       "tagline": "Simple · Standard · Premium",
-      "description": "Ongoing consultancy — field visits, reports, all plans in one package."
+      "description": "Ongoing consultancy — field visits, reports, all plans in one package"
     },
     "fullControl": {
+      "name": "Full Control",
       "tagline": "Our specialist works on-site",
-      "description": "Daily agronomic oversight with target-driven execution."
+      "description": "Daily agronomic oversight with target-driven execution"
     }
   },
   "whyGrovex": {
@@ -63,7 +73,7 @@
       "text": "Delphy, Koppert, Kagome, Proefstation, Groen Agro Control, and Andre Kool."
     },
     "ownGreenhouse": {
-      "title": "We have our own greenhouse",
+      "title": "Our own greenhouses",
       "text": "8 ha tomato greenhouse. See the results firsthand."
     },
     "noBarrier": {

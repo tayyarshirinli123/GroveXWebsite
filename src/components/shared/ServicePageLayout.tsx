@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { CheckCircle2 } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
+import ServiceCrossNav, { type ServiceKey } from "@/components/shared/ServiceCrossNav";
 
 interface ServicePageProps {
   heroTitle: string;
@@ -17,6 +18,7 @@ interface ServicePageProps {
   priceNote?: string;
   priceUnit?: string;
   ctaText: string;
+  serviceKey: ServiceKey;
 }
 
 export default function ServicePageLayout({
@@ -31,6 +33,7 @@ export default function ServicePageLayout({
   priceNote,
   priceUnit,
   ctaText,
+  serviceKey,
 }: ServicePageProps) {
   const cta = useTranslations("common.cta");
 
@@ -127,6 +130,8 @@ export default function ServicePageLayout({
           </div>
         </div>
       </section>
+
+      <ServiceCrossNav currentKey={serviceKey} />
     </>
   );
 }

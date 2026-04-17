@@ -29,6 +29,7 @@ export default async function AuditPage({
       priceAmount={t("price.amount")}
       priceNote={t("price.note")}
       ctaText={cta("orderAudit")}
+      serviceKey="audit"
     />
   );
 }

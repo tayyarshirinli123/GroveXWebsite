@@ -26,15 +26,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-[var(--border-light)]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between lg:h-20">
+        <div className="flex h-20 items-center justify-between lg:h-24">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
+          <Link href="/" className="flex-shrink-0 -my-2">
             <Image
               src="/logo.png"
               alt="GroveX"
-              width={130}
-              height={44}
-              className="h-9 w-auto lg:h-11"
+              width={220}
+              height={80}
+              className="h-14 w-auto lg:h-20"
               priority
             />
           </Link>

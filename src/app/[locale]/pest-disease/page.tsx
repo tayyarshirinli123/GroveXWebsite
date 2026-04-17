@@ -28,6 +28,7 @@ export default async function PestDiseasePage({
       priceTitle={t("price.title")}
       priceAmount={t("price.amount")}
       ctaText={cta("orderPlan")}
+      serviceKey="pestDisease"
     />
   );
 }

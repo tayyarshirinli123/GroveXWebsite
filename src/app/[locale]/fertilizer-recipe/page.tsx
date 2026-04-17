@@ -28,6 +28,7 @@ export default async function FertilizerRecipePage({
       priceTitle={t("price.title")}
       priceAmount={t("price.amount")}
       ctaText={cta("orderRecipe")}
+      serviceKey="fertilizer"
     />
   );
 }

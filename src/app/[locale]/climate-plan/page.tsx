@@ -28,6 +28,7 @@ export default async function ClimatePlanPage({
       priceTitle={t("price.title")}
       priceAmount={t("price.amount")}
       ctaText={cta("orderPlan")}
+      serviceKey="climate"
     />
   );
 }

@@ -29,6 +29,14 @@
     "selectPackage": "Выбрать пакет",
     "aboutPartners": "О партнёрах"
   },
+  "crossNav": {
+    "title": "Другие услуги",
+    "subtitle": "Выберите формат, подходящий вашей теплице"
+  },
+  "floating": {
+    "whatsapp": "Написать в WhatsApp",
+    "phone": "Позвонить нам"
+  },
   "footer": {
     "slogan": "GroveX — Надёжный партнёр для вашей теплицы.",
     "rights": "Все права защищены.",

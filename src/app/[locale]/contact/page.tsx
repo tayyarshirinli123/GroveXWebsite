@@ -22,6 +22,7 @@ export default async function ContactPage({
 
   return (
     <ContactClient
+      locale={locale}
       data={{
         heroTitle: t("hero.title"),
         heroSubtitle: t("hero.subtitle"),

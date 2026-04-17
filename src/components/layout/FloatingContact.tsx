@@ -2,10 +2,13 @@
 
 import { Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { motion } from "framer-motion";
 
 const PHONE_DISPLAY = "+994 77 718 78 65";
 const PHONE_TEL = "+994777187865";
 const WHATSAPP_URL = "https://wa.me/994777187865";
+
+const smooth = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -25,30 +28,40 @@ export default function FloatingContact() {
 
   return (
     <div className="fixed bottom-5 right-5 z-40 flex flex-col gap-3 print:hidden">
-      <a
+      <motion.a
         href={WHATSAPP_URL}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={t("whatsapp")}
         title={t("whatsapp")}
-        className="group relative flex items-center justify-center w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-[#25D366] text-white shadow-lg hover:shadow-xl hover:scale-105 transition-all"
+        initial={{ opacity: 0, scale: 0.6, y: 20 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 1.2, ease: smooth }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        className="group relative flex items-center justify-center w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-[#25D366] text-white shadow-lg hover:shadow-xl transition-shadow"
       >
         <WhatsAppIcon className="w-6 h-6 sm:w-7 sm:h-7" />
-        <span className="pointer-events-none absolute right-full mr-3 top-1/2 -translate-y-1/2 whitespace-nowrap bg-[var(--bg-dark)] text-white text-xs font-medium px-3 py-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity hidden sm:block">
+        <span className="pointer-events-none absolute right-full mr-3 top-1/2 -translate-y-1/2 whitespace-nowrap bg-[var(--bg-dark)] text-white text-xs font-medium px-3 py-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 hidden sm:block">
           {t("whatsapp")}
         </span>
-      </a>
-      <a
+      </motion.a>
+      <motion.a
         href={`tel:${PHONE_TEL}`}
         aria-label={`${t("phone")}: ${PHONE_DISPLAY}`}
         title={`${t("phone")}: ${PHONE_DISPLAY}`}
-        className="group relative flex items-center justify-center w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-[var(--brand-primary)] text-white shadow-lg hover:shadow-xl hover:scale-105 hover:bg-[var(--brand-primary-hover)] transition-all"
+        initial={{ opacity: 0, scale: 0.6, y: 20 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 1.35, ease: smooth }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        className="group relative flex items-center justify-center w-13 h-13 sm:w-14 sm:h-14 rounded-full bg-[var(--brand-primary)] text-white shadow-lg hover:shadow-xl hover:bg-[var(--brand-primary-hover)] transition-all duration-300"
       >
         <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
-        <span className="pointer-events-none absolute right-full mr-3 top-1/2 -translate-y-1/2 whitespace-nowrap bg-[var(--bg-dark)] text-white text-xs font-medium px-3 py-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity hidden sm:block">
+        <span className="pointer-events-none absolute right-full mr-3 top-1/2 -translate-y-1/2 whitespace-nowrap bg-[var(--bg-dark)] text-white text-xs font-medium px-3 py-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 hidden sm:block">
           {PHONE_DISPLAY}
         </span>
-      </a>
+      </motion.a>
     </div>
   );
 }

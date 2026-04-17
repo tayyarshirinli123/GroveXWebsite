@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, Mail, MapPin, CheckCircle2 } from "lucide-react";
+import { Phone, Mail, MapPin, CheckCircle2, AlertCircle } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 
 interface Props {
+  locale: string;
   data: {
     heroTitle: string;
     heroSubtitle: string;
@@ -31,44 +32,50 @@ interface Props {
   };
 }
 
-export default function ContactClient({ data }: Props) {
+export default function ContactClient({ locale, data }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitting(true);
+    setErrorMsg("");
 
     const form = e.currentTarget;
     const fd = new FormData(form);
     const get = (k: string) => (fd.get(k)?.toString() || "").trim();
 
-    const firstName = get("firstName");
-    const lastName = get("lastName");
-    const company = get("company");
-    const phone = get("phone");
-    const email = get("email");
-    const area = get("area");
-    const location = get("location");
-    const note = get("note");
+    const payload = {
+      firstName: get("firstName"),
+      lastName: get("lastName"),
+      company: get("company"),
+      phone: get("phone"),
+      email: get("email"),
+      area: get("area"),
+      location: get("location"),
+      note: get("note"),
+      locale,
+      sourcePage: window.location.pathname,
+    };
 
-    const fullName = [firstName, lastName].filter(Boolean).join(" ");
-    const lines = [
-      `Ad: ${fullName}`,
-      phone && `Telefon: ${phone}`,
-      email && `E-poçt: ${email}`,
-      company && `Şirkət: ${company}`,
-      area && `Sahə: ${area}`,
-      location && `Ünvan: ${location}`,
-      note && `Qeyd: ${note}`,
-    ].filter(Boolean);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
 
-    const subject = encodeURIComponent(`GroveX müraciəti — ${fullName || phone}`);
-    const body = encodeURIComponent(lines.join("\n"));
-    window.location.href = `mailto:info@grovex.az?subject=${subject}&body=${body}`;
-
-    setSubmitted(true);
-    setSubmitting(false);
+      if (res.ok) {
+        setSubmitted(true);
+      } else {
+        setErrorMsg(data.formLabels.error);
+      }
+    } catch {
+      setErrorMsg(data.formLabels.error);
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   const inputCls =
@@ -164,12 +171,30 @@ export default function ContactClient({ data }: Props) {
                       </label>
                       <textarea name="note" rows={3} className={inputCls} />
                     </div>
+
+                    {errorMsg && (
+                      <div className="flex items-center gap-2 px-4 py-3 bg-red-50 border border-red-200 rounded-lg text-sm text-red-700">
+                        <AlertCircle className="h-4 w-4 flex-shrink-0" />
+                        {errorMsg}
+                      </div>
+                    )}
+
                     <button
                       type="submit"
                       disabled={submitting}
                       className="w-full sm:w-auto px-8 py-3.5 text-sm font-semibold text-white bg-[var(--brand-primary)] hover:bg-[var(--brand-primary-hover)] disabled:opacity-60 rounded-lg transition-colors"
                     >
-                      {data.formLabels.submit}
+                      {submitting ? (
+                        <span className="inline-flex items-center gap-2">
+                          <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
+                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                          </svg>
+                          {data.formLabels.submit}
+                        </span>
+                      ) : (
+                        data.formLabels.submit
+                      )}
                     </button>
                   </form>
                 )}

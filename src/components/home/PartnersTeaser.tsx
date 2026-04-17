@@ -12,7 +12,7 @@ export default function PartnersTeaser() {
   return (
     <section className="py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <AnimatedSection>
+        <AnimatedSection variant="reveal" duration={0.8}>
           <div className="text-center">
             <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-6">
               {t("title")}
@@ -22,10 +22,10 @@ export default function PartnersTeaser() {
             </p>
             <Link
               href="/partners"
-              className="inline-flex items-center gap-2 text-[var(--brand-primary)] font-semibold hover:gap-3 transition-all"
+              className="inline-flex items-center gap-2 text-[var(--brand-primary)] font-semibold hover:gap-3 transition-all duration-400"
             >
               {cta("aboutPartners")}
-              <ArrowRight className="h-4 w-4" />
+              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
             </Link>
           </div>
         </AnimatedSection>

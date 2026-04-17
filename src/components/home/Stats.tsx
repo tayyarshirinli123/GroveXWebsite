@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import AnimatedSection from "@/components/shared/AnimatedSection";
+import { StaggerContainer, StaggerItem } from "@/components/shared/StaggerGrid";
 
 export default function Stats() {
   const t = useTranslations("home.stats");
@@ -15,12 +15,12 @@ export default function Stats() {
   ];
 
   return (
-    <section className="bg-[var(--bg-dark)] py-14">
+    <section className="bg-[var(--bg-dark)] py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <AnimatedSection>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-10">
-            {stats.map((stat, i) => (
-              <div key={i} className="text-center">
+        <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-10">
+          {stats.map((stat, i) => (
+            <StaggerItem key={i}>
+              <div className="text-center">
                 <div className="text-2xl sm:text-3xl lg:text-[2rem] font-bold text-white tracking-tight">
                   {stat.value}
                 </div>
@@ -28,9 +28,9 @@ export default function Stats() {
                   {stat.label}
                 </div>
               </div>
-            ))}
-          </div>
-        </AnimatedSection>
+            </StaggerItem>
+          ))}
+        </StaggerContainer>
       </div>
     </section>
   );

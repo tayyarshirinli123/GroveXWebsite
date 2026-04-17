@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "GroveX Haqqında",
+    "subtitle": "Azərbaycanın pomidor istixanalarına xüsusi ixtisaslaşmış ilk beynəlxalq səviyyəli aqronomiya konsaltinq şirkəti."
+  },
+  "mission": {
+    "title": "Missiya",
+    "text": "Azərbaycan istixana sektorunu dünya standartlarına uyğunlaşdırmaq. Yerli istehsalçıların məhsuldarlığını, keyfiyyətini və ixrac rəqabət qabiliyyətini artırmaq."
+  },
+  "values": {
+    "title": "Dəyərlərimiz",
+    "items": [
+      {
+        "title": "Nəticəyə cavabdehlik",
+        "text": "Hər paket ölçülə bilən hədəflərə bağlıdır. Nəticə gətiririk."
+      },
+      {
+        "title": "Beynəlxalq bilik, yerli tətbiq",
+        "text": "Hollandiya, Belçika, Yaponiya təcrübəsini Azərbaycan şəraitində işə salmaq."
+      },
+      {
+        "title": "Şəffaflıq və etibarlılıq",
+        "text": "Hər tövsiyə analizə və sahə məlumatına söykənir. Şərhsiz rəqəmlərlə danışırıq."
+      }
+    ]
+  },
+  "whyNow": {
+    "title": "Niyə indi?",
+    "text": "Azərbaycan istixana sektoru texnologiyaya çıxış əldə edib — amma bu texnologiyanı istixanada iş prosesinə çevirən sistem boşluğu qalıb. GroveX məhz bu boşluğu doldurur."
+  },
+  "facts": {
+    "title": "Faktlar",
+    "items": [
+      { "value": "8 ha", "label": "öz pomidor istixanası (Bakı, Samux)" },
+      { "value": "15+ il", "label": "yerli sahə təcrübəsi" },
+      { "value": "6", "label": "beynəlxalq tərəfdaş" },
+      { "value": "28–30 kq/m²", "label": "öz istixanamızda məhsuldarlıq" }
+    ]
+  }
+}

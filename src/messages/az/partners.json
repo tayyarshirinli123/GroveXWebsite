@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "title": "Beynəlxalq Ekspert Şəbəkəmiz",
+    "subtitle": "Aparıcı istixana ölkələrindən ixtisaslaşmış məsləhətçilər ilə daimi əməkdaşlıq. Tövsiyələr videocall və sahə ziyarəti formatında çatdırılır."
+  },
+  "list": [
+    {
+      "name": "Delphy",
+      "country": "Hollandiya",
+      "description": "Dünyanın aparıcı istixana konsaltinq şirkəti."
+    },
+    {
+      "name": "Andre Kool",
+      "country": "Hollandiya",
+      "description": "30+ il istixana aqronomiyası, iqlim və gübrə eksperti."
+    },
+    {
+      "name": "Koppert",
+      "country": "Hollandiya",
+      "description": "İstixana texnologiyaları və əməliyyat optimallaşdırması."
+    },
+    {
+      "name": "Proefstation",
+      "country": "Belçika",
+      "description": "Tərəvəz istixanaları üzrə tədqiqat və konsaltinq mərkəzi."
+    },
+    {
+      "name": "Kagome",
+      "country": "Yaponiya",
+      "description": "Qlobal pomidor istehsalı və emal texnologiyaları lideri."
+    },
+    {
+      "name": "Groen Agro Control",
+      "country": "Hollandiya",
+      "description": "Toxum seleksiyası və sortlar üzrə beynəlxalq şirkət."
+    }
+  ],
+  "bridge": {
+    "title": "Yerli körpü",
+    "name": "Ulvi Şakirli — Baş Aqronom",
+    "text": "Beynəlxalq ekspertlərin tövsiyələrini Azərbaycan reallığına adaptasiya edən əsas mütəxəssis. 15+ il yerli istixana təcrübəsi."
+  }
+}

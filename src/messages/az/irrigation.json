@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Suvarma Planı",
+    "subtitle": "Gündəlik su idarəetməsi — substrat, drenaj və radiasiyaya bağlı dinamik tənzimləmə."
+  },
+  "scope": {
+    "title": "Əhatə",
+    "items": [
+      "İlk suvarma strategiyası və \"last watering\" vaxtı",
+      "Şot həcmi, tezlik və drenaj faizi hədəfləri",
+      "EC drift və substrat EC-nin idarə edilməsi",
+      "Radiasiya əsaslı avtomatik tənzimləmə parametrləri",
+      "Bitki yüklənməsi və generativ balansa təsir",
+      "Mövsüm mərhələsinə görə ayrı profillər"
+    ]
+  },
+  "result": {
+    "title": "Nəticə",
+    "text": "Yazılı plan + gündəlik cədvəl + tənzimləmə meyarları."
+  },
+  "price": {
+    "title": "Qiymət",
+    "amount": "450 AZN"
+  }
+}

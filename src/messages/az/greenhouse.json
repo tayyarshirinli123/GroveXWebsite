@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "title": "Öz İstixanalarımız",
+    "subtitle": "Tövsiyə etdiyimizi özümüz edirik. Bakı və Samuxda 8 ha pomidor istixanamız — sübut əsasımız."
+  },
+  "results": {
+    "title": "Nəticələrimiz",
+    "rows": [
+      { "label": "İllik məhsuldarlıq", "value": "28–30 kq/m²" },
+      { "label": "1-ci sort çıxış", "value": "93–96%" },
+      { "label": "5 kalibr meyvələr", "value": "60–75%" },
+      { "label": "4 kalibr meyvələr", "value": "20–25%" },
+      { "label": "6 kalibr meyvələr", "value": "10–15%" },
+      { "label": "Brix (stabil)", "value": "4.5–5.8" }
+    ]
+  },
+  "visit": {
+    "title": "Ziyarət dəvəti",
+    "text": "Müştərilərimiz istixanalarımızı ziyarət edə, əkin sisteminə, iqlim idarəetməsinə və məhsul keyfiyyətinə yerində baxa bilərlər. Nəticələri təqdimatda deyil, sahədə göstəririk."
+  }
+}

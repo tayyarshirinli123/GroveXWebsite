@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "title": "Our Greenhouses",
+    "subtitle": "We practice what we recommend. 8 ha of tomato greenhouses in Baku and Samukh — our proof base."
+  },
+  "results": {
+    "title": "Our Results",
+    "rows": [
+      { "label": "Annual yield", "value": "28–30 kg/m²" },
+      { "label": "First-grade output", "value": "93–96%" },
+      { "label": "Caliber 5 fruits", "value": "60–75%" },
+      { "label": "Caliber 4 fruits", "value": "20–25%" },
+      { "label": "Caliber 6 fruits", "value": "10–15%" },
+      { "label": "Brix (stable)", "value": "4.5–5.8" }
+    ]
+  },
+  "visit": {
+    "title": "Visit Invitation",
+    "text": "Our clients can visit our greenhouses, inspect the growing system, climate management, and product quality on-site. We show results in the field, not in presentations."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "title": "Azerbaijan's Greenhouse Consultancy",
+    "subtitle": "International-level agronomy support for tomato greenhouses. Dutch, Belgian, and Japanese expertise — adapted to local conditions."
+  },
+  "positioning": {
+    "text": "Every recommendation is grounded in analysis and field experience. Every package is tied to measurable targets. Our own greenhouse — 8 ha in Baku and Samukh — is our proof base."
+  },
+  "stats": {
+    "yield": "28–30 kg/m²",
+    "yieldLabel": "annual yield in our own greenhouses",
+    "grade": "93–96%",
+    "gradeLabel": "first-grade output",
+    "caliber5": "60–75%",
+    "caliber5Label": "share of caliber-5 fruit",
+    "caliber4": "20–25%",
+    "caliber4Label": "share of caliber-4 fruit",
+    "brix": "4.5–5.8",
+    "brixLabel": "Brix reading"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "One-time assessment or ongoing oversight — choose the format that fits your greenhouse.",
+    "audit": {
+      "name": "Audit",
+      "tagline": "Complete field diagnostics",
+      "description": "Yield gap, risks, and operational fixes — all in one report"
+    },
+    "fertilizer": {
+      "name": "Fertilizer Recipe",
+      "tagline": "Analysis-based nutrition program",
+      "description": "Precise recipe aligned to EC/pH, nutrient balance, and crop stage"
+    },
+    "climate": {
+      "name": "Climate Plan",
+      "tagline": "Temperature and humidity regime",
+      "description": "Day/night regime, VPD management, and ventilation strategy"
+    },
+    "pestDisease": {
+      "name": "Pest & Disease",
+      "tagline": "Preventive protection strategy",
+      "description": "Early diagnosis, biological and chemical intervention schedule"
+    },
+    "irrigation": {
+      "name": "Irrigation Plan",
+      "tagline": "Daily water management",
+      "description": "Substrate condition, drainage targets, and radiation-based adjustment"
+    },
+    "training": {
+      "name": "Training",
+      "tagline": "Hands-on field program",
+      "description": "Staff monitoring, recording, and decision-making skills"
+    },
+    "packages": {
+      "name": "Packages",
+      "tagline": "Simple · Standard · Premium",
+      "description": "Ongoing consultancy — field visits, reports, all plans in one package"
+    },
+    "fullControl": {
+      "name": "Full Control",
+      "tagline": "Our specialist works on-site",
+      "description": "Daily agronomic oversight with target-driven execution"
+    }
+  },
+  "whyGrovex": {
+    "title": "Why GroveX",
+    "experience": {
+      "title": "15+ years of local experience",
+      "text": "Not theory — proven practice in Azerbaijani conditions."
+    },
+    "network": {
+      "title": "International expert network",
+      "text": "Delphy, Koppert, Kagome, Proefstation, Groen Agro Control, and Andre Kool."
+    },
+    "ownGreenhouse": {
+      "title": "Our own greenhouses",
+      "text": "8 ha tomato greenhouse. See the results firsthand."
+    },
+    "noBarrier": {
+      "title": "No language or cultural barriers",
+      "text": "Every recommendation is delivered in a directly actionable format."
+    }
+  },
+  "partnersTeaser": {
+    "title": "Our International Expert Network",
+    "names": "Delphy · Andre Kool · Koppert · Proefstation · Kagome · Groen Agro Control"
+  },
+  "finalCta": {
+    "title": "Want to see your greenhouse's real potential?",
+    "text": "Our manager visits your site, assesses the situation, and provides a health prognosis. No obligation."
+  }
+}

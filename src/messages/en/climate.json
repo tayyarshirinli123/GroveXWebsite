@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Climate Plan",
+    "subtitle": "Temperature, humidity, and VPD regime planning based on crop stage and external weather conditions."
+  },
+  "scope": {
+    "title": "Scope",
+    "items": [
+      "24-hour temperature profile — day, pre-night, late night",
+      "VPD and humidity targets",
+      "Ventilation and screen strategy",
+      "Radiation and CO₂ relationship adjustment",
+      "Generative/vegetative steering",
+      "Separate scenarios for critical season transitions"
+    ]
+  },
+  "result": {
+    "title": "Deliverable",
+    "text": "Written plan + recommended set-point schedule for climate computer."
+  },
+  "price": {
+    "title": "Price",
+    "amount": "450 AZN"
+  }
+}

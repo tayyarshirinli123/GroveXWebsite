@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "About GroveX",
+    "subtitle": "Azerbaijan's first international-level agronomy consultancy specialized in tomato greenhouses."
+  },
+  "mission": {
+    "title": "Mission",
+    "text": "To bring Azerbaijan's greenhouse sector to world standards. To increase local producers' yield, quality, and export competitiveness."
+  },
+  "values": {
+    "title": "Our Values",
+    "items": [
+      {
+        "title": "Accountability for results",
+        "text": "Every package is tied to measurable targets. We deliver results."
+      },
+      {
+        "title": "International knowledge, local application",
+        "text": "Putting Dutch, Belgian, and Japanese expertise to work in Azerbaijani conditions."
+      },
+      {
+        "title": "Transparency and reliability",
+        "text": "Every recommendation is grounded in analysis and field data. We speak in numbers, without commentary."
+      }
+    ]
+  },
+  "whyNow": {
+    "title": "Why Now?",
+    "text": "Azerbaijan's greenhouse sector has gained access to technology — but the system gap of turning that technology into operational greenhouse processes remains. GroveX fills precisely this gap."
+  },
+  "facts": {
+    "title": "Facts",
+    "items": [
+      { "value": "8 ha", "label": "own tomato greenhouse (Baku, Samukh)" },
+      { "value": "15+ years", "label": "local field experience" },
+      { "value": "6", "label": "international partners" },
+      { "value": "28–30 kg/m²", "label": "yield in our own greenhouse" }
+    ]
+  }
+}

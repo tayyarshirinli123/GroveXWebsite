@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "title": "Gübrə Resepti",
+    "subtitle": "Analizə söykənən, mövsüm mərhələsinə uyğun qidalanma proqramı. Hər manat gübrə işə yarayır."
+  },
+  "methodology": {
+    "title": "Metodologiya",
+    "items": [
+      "Su, substrat və drenaj analizlərinin təhlili",
+      "Bitki mərhələsinə (vegetativ/generativ keçid, yüklənmə, stabilizasiya) görə nutrient balansı",
+      "EC/pH hədəfləri — gündüz/gecə, radiasiya səviyyəsinə görə",
+      "Mikroelement tamamlayıcıları və pH düzəldicilər",
+      "A/B bak reseptləri — praktik hazırlıq üçün"
+    ]
+  },
+  "result": {
+    "title": "Nəticə",
+    "text": "Yazılı resept + tətbiq cədvəli + növbəti analiz tarixi."
+  },
+  "price": {
+    "title": "Qiymət",
+    "amount": "300 AZN"
+  }
+}

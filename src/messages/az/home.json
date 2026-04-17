@@ -1,0 +1,92 @@
+{
+  "hero": {
+    "title": "Azərbaycanın istixana konsaltinq şirkəti",
+    "subtitle": "Pomidor istixanaları üçün beynəlxalq səviyyədə aqronomiya dəstəyi. Hollandiya, Belçika, Yaponiya ekspertizası — yerli şəraitə adaptasiya edilmiş tətbiqlə."
+  },
+  "positioning": {
+    "text": "Hər tövsiyə analizə və sahə təcrübəsinə söykənir. Hər paket ölçülə bilən hədəfə bağlıdır. Öz istixanamız — 8 ha Bakı və Samuxda — sübut əsasımızdır."
+  },
+  "stats": {
+    "yield": "28–30 kq/m²",
+    "yieldLabel": "öz istixanalarımızda illik məhsuldarlıq",
+    "grade": "93–96%",
+    "gradeLabel": "1-ci sort çıxış",
+    "caliber5": "60–75%",
+    "caliber5Label": "5 kalibr meyvə payı",
+    "caliber4": "20–25%",
+    "caliber4Label": "4 kalibr meyvə payı",
+    "brix": "4.5–5.8",
+    "brixLabel": "Brix göstəricisi"
+  },
+  "services": {
+    "title": "Xidmətlər",
+    "subtitle": "Birdəfəlik rəy və ya davamlı nəzarət — istixananıza uyğun formatı seçin.",
+    "audit": {
+      "name": "Audit",
+      "tagline": "Sahənin tam diaqnostikası",
+      "description": "Məhsuldarlıq boşluğunu, riskləri və operativ düzəlişləri bir hesabatda"
+    },
+    "fertilizer": {
+      "name": "Gübrə Resepti",
+      "tagline": "Analizə əsaslanan qidalanma proqramı",
+      "description": "EC/pH, nutrient balansı və mövsüm mərhələsinə uyğun dəqiq resept"
+    },
+    "climate": {
+      "name": "İqlim Planı",
+      "tagline": "Temperatur və rütubət rejimi",
+      "description": "Gündüz/gecə rejimi, VPD idarəetməsi və ventilyasiya strategiyası"
+    },
+    "pestDisease": {
+      "name": "Zərərverici və Xəstəlik",
+      "tagline": "Preventiv mübarizə strategiyası",
+      "description": "Erkən diaqnoz, bioloji və kimyəvi müdaxilə cədvəli"
+    },
+    "irrigation": {
+      "name": "Suvarma Planı",
+      "tagline": "Gündəlik su idarəetməsi",
+      "description": "Substrat vəziyyəti, drenaj hədəfləri və radiasiyaya bağlı tənzimləmə"
+    },
+    "training": {
+      "name": "Təlim",
+      "tagline": "Sahədə praktiki proqram",
+      "description": "Personalın monitorinq, qeydiyyat və qərar qəbulu bacarıqları"
+    },
+    "packages": {
+      "name": "Paketlər",
+      "tagline": "Sadə · Standard · Premium",
+      "description": "Davamlı konsaltinq — sahə baxışı, hesabat, bütün planlar bir paketdə"
+    },
+    "fullControl": {
+      "name": "Tam Nəzarət",
+      "tagline": "Mütəxəssisimiz sizdə işləyir",
+      "description": "Gündəlik aqronomik nəzarət və hədəfə bağlı icra"
+    }
+  },
+  "whyGrovex": {
+    "title": "Niyə GroveX",
+    "experience": {
+      "title": "15+ il yerli təcrübə",
+      "text": "Nəzəriyyə deyil, Azərbaycan şəraitində yaşanmış praktika."
+    },
+    "network": {
+      "title": "Beynəlxalq ekspert şəbəkəsi",
+      "text": "Delphy, Koppert, Kagome, Proefstation, Groen Agro Control və Andre Kool."
+    },
+    "ownGreenhouse": {
+      "title": "Öz istixanalarımız",
+      "text": "8 ha pomidor istixanası. Nəticələri yerində görə bilərsiniz."
+    },
+    "noBarrier": {
+      "title": "Dil və mədəniyyət maneəsi yoxdur",
+      "text": "Hər tövsiyə sahədə birbaşa tətbiq olunan formada çatdırılır."
+    }
+  },
+  "partnersTeaser": {
+    "title": "Beynəlxalq Ekspert Şəbəkəmiz",
+    "names": "Delphy · Andre Kool · Koppert · Proefstation · Kagome · Groen Agro Control"
+  },
+  "finalCta": {
+    "title": "İstixananızın real potensialını görmək istəyirsiniz?",
+    "text": "Menecerimiz sahəyə gəlir, vəziyyəti qiymətləndirir və sağlamlıq proqnozu təqdim edir. Heç bir öhdəlik yoxdur."
+  }
+}

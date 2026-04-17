@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Audit",
+    "subtitle": "Sahənin tam aqronomik diaqnostikası — mövcud vəziyyət, məhsuldarlıq boşluğu və operativ müdaxilə sırası."
+  },
+  "includes": {
+    "title": "Nə daxildir",
+    "items": [
+      "İstixananın strukturu, iqlim sistemi və suvarma infrastrukturunun qiymətləndirilməsi",
+      "Bitki generativ/vegetativ balansının yoxlanışı",
+      "Gübrə və suvarma rejiminin audit edilməsi (EC/pH, drenaj, Na/Cl yığımı)",
+      "Xəstəlik və zərərverici risklərinin xəritələnməsi",
+      "Mikroiqlim və VPD profilinin qiymətləndirilməsi",
+      "Məhsuldarlıq boşluğunun (yield gap) rəqəmlə təsbiti",
+      "Prioritetləşdirilmiş həll siyahısı və məhsuldarlıq proqnozu"
+    ]
+  },
+  "result": {
+    "title": "Nəticə",
+    "text": "Yazılı audit hesabatı + sahədə müzakirə sessiyası."
+  },
+  "price": {
+    "title": "Qiymət",
+    "amount": "300 AZN",
+    "note": "5 ha-a qədər"
+  }
+}

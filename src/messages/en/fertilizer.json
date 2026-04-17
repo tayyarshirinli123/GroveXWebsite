@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "title": "Fertilizer Recipe",
+    "subtitle": "Analysis-based nutrition program tailored to crop stage. Every manat of fertilizer works."
+  },
+  "methodology": {
+    "title": "Methodology",
+    "items": [
+      "Water, substrate, and drainage analysis review",
+      "Nutrient balance by crop stage (vegetative/generative transition, fruit load, stabilization)",
+      "EC/pH targets — day/night, adjusted by radiation level",
+      "Microelement supplements and pH correctors",
+      "A/B tank recipes — ready for practical preparation"
+    ]
+  },
+  "result": {
+    "title": "Deliverable",
+    "text": "Written recipe + application schedule + next analysis date."
+  },
+  "price": {
+    "title": "Price",
+    "amount": "300 AZN"
+  }
+}

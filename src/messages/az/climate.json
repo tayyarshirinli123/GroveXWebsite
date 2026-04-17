@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "İqlim Planı",
+    "subtitle": "Temperatur, rütubət və VPD rejiminin bitki mərhələsinə və kənar hava şəraitinə görə planlaşdırılması."
+  },
+  "scope": {
+    "title": "Əhatə",
+    "items": [
+      "24 saatlıq temperatur profili — gündüz, ön gecə, son gecə",
+      "VPD və rütubət hədəfləri",
+      "Ventilyasiya və ekran strategiyası",
+      "Radiasiya və CO₂ əlaqəsinin tənzimlənməsi",
+      "Generativ/vegetativ istiqamətləndirmə",
+      "Kritik mövsüm keçidləri üçün ayrı ssenarilər"
+    ]
+  },
+  "result": {
+    "title": "Nəticə",
+    "text": "Yazılı plan + climate computer üçün tövsiyə olunan set-point cədvəli."
+  },
+  "price": {
+    "title": "Qiymət",
+    "amount": "450 AZN"
+  }
+}

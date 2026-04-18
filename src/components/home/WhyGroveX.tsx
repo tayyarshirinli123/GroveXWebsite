@@ -19,11 +19,11 @@ export default function WhyGroveX() {
   return (
     <section className="py-20 sm:py-28 bg-[var(--green-surface)]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <AnimatedSection variant="cinematic" duration={0.9} easing="premium">
+        <AnimatedSection variant="rise" duration={1.0} easing="dramatic">
           <SectionHeading title={t("title")} />
         </AnimatedSection>
 
-        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8" stagger={0.12}>
+        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8" stagger={0.14} delayChildren={0.2}>
           {reasons.map((reason) => {
             const Icon = reason.icon;
             return (

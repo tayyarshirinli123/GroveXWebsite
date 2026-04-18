@@ -10,7 +10,6 @@ export default async function AuditPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("audit");
-  const cta = await getTranslations("common.cta");
 
   const items: string[] = [];
   for (let i = 0; i < 7; i++) {
@@ -25,10 +24,8 @@ export default async function AuditPage({
       items={items}
       resultTitle={t("result.title")}
       resultText={t("result.text")}
-      priceTitle={t("price.title")}
-      priceAmount={t("price.amount")}
-      priceNote={t("price.note")}
-      ctaText={cta("orderAudit")}
+      inquiryTitle={t("inquiry.title")}
+      inquiryText={t("inquiry.text")}
       serviceKey="audit"
     />
   );

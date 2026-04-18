@@ -22,7 +22,8 @@ export default function Stats() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <StaggerContainer
           className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-10"
-          stagger={0.1}
+          stagger={0.12}
+          delayChildren={0.2}
         >
           {stats.map((stat, i) => (
             <StaggerItem key={i} compact>

@@ -29,8 +29,8 @@ export default async function FullControlPage({
         items,
         forWhomTitle: t("forWhom.title"),
         forWhomText: t("forWhom.text"),
-        priceTitle: t("price.title"),
-        priceText: t("price.text"),
+        inquiryTitle: t("inquiry.title"),
+        inquiryText: t("inquiry.text"),
         ctaText: cta("requestOffer"),
       }}
     />

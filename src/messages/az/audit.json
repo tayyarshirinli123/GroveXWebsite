@@ -19,9 +19,8 @@
     "title": "Nəticə",
     "text": "Yazılı audit hesabatı + sahədə müzakirə sessiyası."
   },
-  "price": {
-    "title": "Qiymət",
-    "amount": "300 AZN",
-    "note": "5 ha-a qədər"
+  "inquiry": {
+    "title": "Sahənizə uyğun təklif",
+    "text": "Sahənin ölçüsü, mövsüm mərhələsi və hədəflərinizə əsasən fərdi qiymət təklifi hazırlayırıq."
   }
 }

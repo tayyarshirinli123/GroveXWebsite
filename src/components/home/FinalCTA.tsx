@@ -14,7 +14,7 @@ export default function FinalCTA() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.04)_0%,transparent_70%)]" />
 
       <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
-        <AnimatedSection variant="cinematic" duration={0.9} easing="premium">
+        <AnimatedSection variant="rise" duration={1.1} easing="dramatic">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 font-[family-name:var(--font-playfair)]">
             {t("title")}
           </h2>

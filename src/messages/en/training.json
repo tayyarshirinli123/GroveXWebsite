@@ -19,9 +19,8 @@
     "title": "Format",
     "text": "One-day field session — together with your team in the greenhouse. A brief execution note follows each session."
   },
-  "price": {
-    "title": "Price",
-    "amount": "800 AZN",
-    "unit": "day"
+  "inquiry": {
+    "title": "Tailored to your team",
+    "text": "We prepare an individual quote based on team size, topic selection, and session format."
   }
 }

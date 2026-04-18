@@ -10,7 +10,6 @@ export default async function PestDiseasePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("pestDisease");
-  const cta = await getTranslations("common.cta");
 
   const items: string[] = [];
   for (let i = 0; i < 6; i++) {
@@ -25,9 +24,8 @@ export default async function PestDiseasePage({
       items={items}
       resultTitle={t("result.title")}
       resultText={t("result.text")}
-      priceTitle={t("price.title")}
-      priceAmount={t("price.amount")}
-      ctaText={cta("orderPlan")}
+      inquiryTitle={t("inquiry.title")}
+      inquiryText={t("inquiry.text")}
       serviceKey="pestDisease"
     />
   );

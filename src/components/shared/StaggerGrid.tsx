@@ -1,9 +1,10 @@
 "use client";
 
-import { motion, type Variants } from "framer-motion";
+import { motion, useReducedMotion, type Variants } from "framer-motion";
 import type { ReactNode } from "react";
 
 const smooth = [0.22, 1, 0.36, 1] as [number, number, number, number];
+const premium = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
 const container: Variants = {
   hidden: {},
@@ -16,21 +17,29 @@ const container: Variants = {
 };
 
 const itemDefault: Variants = {
-  hidden: { opacity: 0, y: 28, scale: 0.96 },
+  hidden: { opacity: 0, y: 32, scale: 0.94 },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.65, ease: smooth },
+    transition: { duration: 0.7, ease: premium },
   },
 };
 
 const itemCompact: Variants = {
-  hidden: { opacity: 0, y: 18 },
+  hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
     transition: { duration: 0.55, ease: smooth },
+  },
+};
+
+const itemReduced: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { duration: 0.3 },
   },
 };
 
@@ -39,16 +48,19 @@ interface ContainerProps {
   className?: string;
   margin?: string;
   stagger?: number;
+  delayChildren?: number;
 }
 
-export function StaggerContainer({ children, className = "", margin = "-60px", stagger }: ContainerProps) {
-  const variants = stagger
+export function StaggerContainer({ children, className = "", margin = "-60px", stagger, delayChildren }: ContainerProps) {
+  const prefersReduced = useReducedMotion();
+
+  const variants = stagger || delayChildren
     ? {
         hidden: {},
         visible: {
           transition: {
-            staggerChildren: stagger,
-            delayChildren: 0.15,
+            staggerChildren: prefersReduced ? 0 : (stagger ?? 0.09),
+            delayChildren: prefersReduced ? 0 : (delayChildren ?? 0.15),
           },
         },
       }
@@ -74,8 +86,11 @@ interface ItemProps {
 }
 
 export function StaggerItem({ children, className = "", compact = false }: ItemProps) {
+  const prefersReduced = useReducedMotion();
+  const variants = prefersReduced ? itemReduced : compact ? itemCompact : itemDefault;
+
   return (
-    <motion.div variants={compact ? itemCompact : itemDefault} className={className}>
+    <motion.div variants={variants} className={className}>
       {children}
     </motion.div>
   );

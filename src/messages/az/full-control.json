@@ -32,8 +32,8 @@
     "title": "Kimlər üçündür",
     "text": "10+ ha həcmi olan, aqronomik nəticəyə tam zəmanət axtaran istixana sahibləri."
   },
-  "price": {
-    "title": "Qiymət",
+  "inquiry": {
+    "title": "Fərdi təklif",
     "text": "Sahə həcmi, hədəf məhsuldarlıq və mövcud infrastruktur qiymətləndirildikdən sonra fərdi təklif hazırlanır."
   }
 }

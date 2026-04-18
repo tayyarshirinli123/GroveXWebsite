@@ -18,8 +18,8 @@
     "title": "Nəticə",
     "text": "Yazılı mübarizə planı + tətbiq təqvimi + məhsul siyahısı."
   },
-  "price": {
-    "title": "Qiymət",
-    "amount": "540 AZN"
+  "inquiry": {
+    "title": "Sahənizə uyğun təklif",
+    "text": "Sahənin ölçüsü, mövsüm mərhələsi və hədəflərinizə əsasən fərdi qiymət təklifi hazırlayırıq."
   }
 }

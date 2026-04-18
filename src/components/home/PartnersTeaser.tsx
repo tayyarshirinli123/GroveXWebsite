@@ -12,7 +12,7 @@ export default function PartnersTeaser() {
   return (
     <section className="py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <AnimatedSection variant="drift" duration={0.9} easing="premium">
+        <AnimatedSection variant="cinematic" duration={1.0} easing="dramatic">
           <div className="text-center">
             <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-6">
               {t("title")}

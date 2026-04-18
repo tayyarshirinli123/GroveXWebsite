@@ -17,8 +17,8 @@
     "title": "Deliverable",
     "text": "Written recipe + application schedule + next analysis date."
   },
-  "price": {
-    "title": "Price",
-    "amount": "300 AZN"
+  "inquiry": {
+    "title": "Tailored to your site",
+    "text": "We prepare an individual quote based on your area, season stage, and goals."
   }
 }

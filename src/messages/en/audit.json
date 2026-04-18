@@ -19,9 +19,8 @@
     "title": "Deliverable",
     "text": "Written audit report + on-site discussion session."
   },
-  "price": {
-    "title": "Price",
-    "amount": "300 AZN",
-    "note": "up to 5 ha"
+  "inquiry": {
+    "title": "Tailored to your site",
+    "text": "We prepare an individual quote based on your area, season stage, and goals."
   }
 }

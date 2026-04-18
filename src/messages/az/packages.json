@@ -1,13 +1,10 @@
 {
   "hero": {
     "title": "Aylıq Paketlər",
-    "subtitle": "Davamlı aqronomik nəzarət — sahə baxışı, hesabatlar və bütün planlar bir paket daxilində.",
-    "discount": "Hər əlavə 5 ha üçün 20% endirim tətbiq olunur."
+    "subtitle": "Davamlı aqronomik nəzarət — sahə baxışı, hesabatlar və bütün planlar bir paket daxilində."
   },
   "simple": {
     "name": "Sadə",
-    "price": "360 AZN",
-    "unit": "ay / ha",
     "features": [
       "Ayda 1 dəfə sahə baxışı",
       "Aylıq hesabat",
@@ -20,8 +17,6 @@
   },
   "standard": {
     "name": "Standard",
-    "price": "580 AZN",
-    "unit": "ay / ha",
     "badge": "Ən çox seçilən",
     "features": [
       "Ayda 2 dəfə sahə baxışı",
@@ -36,8 +31,6 @@
   },
   "premium": {
     "name": "Premium",
-    "price": "800 AZN",
-    "unit": "ay / ha",
     "features": [
       "Ayda 2 dəfə sahə baxışı",
       "Aylıq hesabat",
@@ -49,6 +42,10 @@
       "Onlayn ekspert dəstəyi — limitsiz",
       "Sistemə uzaqdan nəzarət — hər gün"
     ]
+  },
+  "inquiry": {
+    "title": "Sizə uyğun paket",
+    "text": "Sahənin həcmi, mövsüm mərhələsi və hədəflərinizə əsasən fərdi təklif hazırlayırıq."
   },
   "note": "Paket seçimi sahənin həcmi, mövsüm mərhələsi və məhsuldarlıq hədəfinə görə birlikdə edilir. İlk sahə ziyarəti pulsuzdur."
 }

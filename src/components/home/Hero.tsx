@@ -2,21 +2,34 @@
 
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
+import { useRef } from "react";
 
 const ease = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
 export default function Hero() {
   const t = useTranslations("home.hero");
   const cta = useTranslations("common.cta");
+  const ref = useRef<HTMLElement>(null);
+  const prefersReduced = useReducedMotion();
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+
+  const heroOpacity = useTransform(scrollYProgress, [0, 0.7], [1, 0]);
+  const heroY = useTransform(scrollYProgress, [0, 0.7], [0, 60]);
+  const videoScale = useTransform(scrollYProgress, [0, 1], [1, 1.12]);
 
   return (
-    <section className="relative min-h-[85vh] sm:min-h-[90vh] flex items-center overflow-hidden">
-      {/* Background video with subtle zoom */}
+    <section ref={ref} className="relative min-h-[85vh] sm:min-h-[90vh] flex items-center overflow-hidden">
+      {/* Background video with scroll-linked zoom */}
       <motion.div
         initial={{ scale: 1.08 }}
         animate={{ scale: 1 }}
         transition={{ duration: 6, ease: [0.25, 0.1, 0.25, 1] }}
+        style={prefersReduced ? {} : { scale: videoScale }}
         className="absolute inset-0"
       >
         <video
@@ -35,8 +48,11 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-black/25" />
       <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/10" />
 
-      {/* Content */}
-      <div className="relative z-10 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
+      {/* Content with scroll-linked exit */}
+      <motion.div
+        style={prefersReduced ? {} : { opacity: heroOpacity, y: heroY }}
+        className="relative z-10 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40"
+      >
         <div className="max-w-2xl">
           {/* Badge */}
           <motion.div
@@ -98,7 +114,7 @@ export default function Hero() {
             </Link>
           </motion.div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Bottom gradient fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[var(--bg-light)] to-transparent" />

@@ -2,7 +2,7 @@
 
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Sparkles, ArrowRight } from "lucide-react";
 import AnimatedSection from "@/components/shared/AnimatedSection";
 import ServiceCrossNav, { type ServiceKey } from "@/components/shared/ServiceCrossNav";
 
@@ -13,11 +13,8 @@ interface ServicePageProps {
   items: string[];
   resultTitle: string;
   resultText: string;
-  priceTitle: string;
-  priceAmount: string;
-  priceNote?: string;
-  priceUnit?: string;
-  ctaText: string;
+  inquiryTitle: string;
+  inquiryText: string;
   serviceKey: ServiceKey;
 }
 
@@ -28,11 +25,8 @@ export default function ServicePageLayout({
   items,
   resultTitle,
   resultText,
-  priceTitle,
-  priceAmount,
-  priceNote,
-  priceUnit,
-  ctaText,
+  inquiryTitle,
+  inquiryText,
   serviceKey,
 }: ServicePageProps) {
   const cta = useTranslations("common.cta");
@@ -87,42 +81,40 @@ export default function ServicePageLayout({
               </AnimatedSection>
             </div>
 
-            {/* Sidebar */}
+            {/* Sidebar — inquiry / lead-gen card */}
             <div className="lg:col-span-1">
               <AnimatedSection delay={0.15}>
-                <div className="sticky top-28 p-6 bg-white rounded-xl border border-[var(--border-light)] shadow-[var(--shadow-card)]">
-                  <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-2">
-                    {priceTitle}
-                  </h3>
-                  <div className="flex items-baseline gap-2 mb-1">
-                    <span className="text-3xl font-bold text-[var(--brand-primary)]">
-                      {priceAmount}
-                    </span>
-                    {priceUnit && (
-                      <span className="text-sm text-[var(--text-muted)]">
-                        / {priceUnit}
-                      </span>
-                    )}
-                  </div>
-                  {priceNote && (
-                    <p className="text-sm text-[var(--text-muted)] mb-5">
-                      {priceNote}
+                <div className="sticky top-28 relative overflow-hidden rounded-2xl border border-[var(--border-light)] bg-gradient-to-br from-white via-white to-[var(--green-surface)] shadow-[var(--shadow-card)]">
+                  <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[var(--brand-primary)] via-[var(--green-accent)] to-[var(--brand-primary)]" />
+                  <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-[var(--brand-primary)]/5 blur-2xl" />
+                  <div className="relative p-7">
+                    <div className="inline-flex items-center gap-2 rounded-full bg-[var(--brand-primary)]/8 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[var(--brand-primary)]">
+                      <Sparkles className="h-3.5 w-3.5" />
+                      {inquiryTitle}
+                    </div>
+                    <p className="mt-4 text-[var(--text-secondary)] leading-relaxed">
+                      {inquiryText}
                     </p>
-                  )}
-                  {!priceNote && <div className="mb-5" />}
-                  <Link
-                    href="/contact"
-                    className="block w-full text-center px-6 py-3 text-sm font-semibold text-white bg-[var(--brand-primary)] hover:bg-[var(--brand-primary-hover)] rounded-lg transition-colors"
-                  >
-                    {ctaText}
-                  </Link>
-                  <div className="mt-4 text-center">
                     <Link
-                      href="/packages"
-                      className="text-sm text-[var(--brand-primary)] hover:underline"
+                      href="/contact"
+                      className="group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[var(--brand-primary)] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_rgba(123,12,48,0.4)] transition-all duration-300 hover:bg-[var(--brand-primary-hover)] hover:-translate-y-0.5 hover:shadow-[0_12px_32px_-8px_rgba(123,12,48,0.5)]"
                     >
-                      {cta("viewPackages")} →
+                      {cta("getQuote")}
+                      <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
                     </Link>
+                    <div className="mt-5 flex items-center justify-center gap-1.5 text-xs text-[var(--text-muted)]">
+                      <span className="h-1 w-1 rounded-full bg-[var(--green-accent)]" />
+                      <span>{cta("scheduleVisit")}</span>
+                      <span className="h-1 w-1 rounded-full bg-[var(--green-accent)]" />
+                    </div>
+                    <div className="mt-5 border-t border-[var(--border-light)] pt-4 text-center">
+                      <Link
+                        href="/packages"
+                        className="text-sm font-medium text-[var(--brand-primary)] hover:underline"
+                      >
+                        {cta("viewPackages")} →
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </AnimatedSection>

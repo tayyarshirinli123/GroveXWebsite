@@ -13,8 +13,8 @@ interface Props {
     items: { title: string; text: string }[];
     forWhomTitle: string;
     forWhomText: string;
-    priceTitle: string;
-    priceText: string;
+    inquiryTitle: string;
+    inquiryText: string;
     ctaText: string;
   };
 }
@@ -76,9 +76,9 @@ export default function FullControlClient({ data }: Props) {
             <AnimatedSection delay={0.35}>
               <div className="p-6 bg-[var(--brand-primary-bg)] rounded-xl h-full">
                 <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
-                  {data.priceTitle}
+                  {data.inquiryTitle}
                 </h3>
-                <p className="text-[var(--text-secondary)] mb-5">{data.priceText}</p>
+                <p className="text-[var(--text-secondary)] mb-5">{data.inquiryText}</p>
                 <Link
                   href="/contact"
                   className="inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-[var(--brand-primary)] hover:bg-[var(--brand-primary-hover)] rounded-lg transition-colors"

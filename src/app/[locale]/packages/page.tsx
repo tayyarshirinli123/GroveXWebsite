@@ -21,34 +21,29 @@ export default async function PackagesPage({
   };
 
   const data = {
-    hero: { title: t("hero.title"), subtitle: t("hero.subtitle"), discount: t("hero.discount") },
+    hero: { title: t("hero.title"), subtitle: t("hero.subtitle") },
     plans: [
       {
         name: t("simple.name"),
-        price: t("simple.price"),
-        unit: t("simple.unit"),
         features: getFeatures("simple", 7),
         highlighted: false,
       },
       {
         name: t("standard.name"),
-        price: t("standard.price"),
-        unit: t("standard.unit"),
         badge: t("standard.badge"),
         features: getFeatures("standard", 8),
         highlighted: true,
       },
       {
         name: t("premium.name"),
-        price: t("premium.price"),
-        unit: t("premium.unit"),
         features: getFeatures("premium", 9),
         highlighted: false,
       },
     ],
     note: t("note"),
+    inquiry: { title: t("inquiry.title"), text: t("inquiry.text") },
     ctaText: cta("getConsultation"),
-    selectText: cta("selectPackage"),
+    selectText: cta("getQuote"),
   };
 
   return <PackagesClient data={data} />;

@@ -19,9 +19,8 @@
     "title": "Format",
     "text": "Bir günlük sahə sessiyası — komandanızla birlikdə istixanada. Hər sessiyadan sonra qısa icra qeydi."
   },
-  "price": {
-    "title": "Qiymət",
-    "amount": "800 AZN",
-    "unit": "gün"
+  "inquiry": {
+    "title": "Sahənizə uyğun təklif",
+    "text": "Komandanın ölçüsü, mövzu seçimi və sessiya formatına əsasən fərdi qiymət təklifi hazırlayırıq."
   }
 }

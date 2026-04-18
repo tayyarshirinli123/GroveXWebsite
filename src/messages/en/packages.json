@@ -1,13 +1,10 @@
 {
   "hero": {
     "title": "Monthly Packages",
-    "subtitle": "Ongoing agronomic oversight — field visits, reports, and all plans included in one package.",
-    "discount": "20% discount applies for each additional 5 ha."
+    "subtitle": "Ongoing agronomic oversight — field visits, reports, and all plans included in one package."
   },
   "simple": {
     "name": "Simple",
-    "price": "360 AZN",
-    "unit": "mo / ha",
     "features": [
       "1 field visit per month",
       "Monthly report",
@@ -20,8 +17,6 @@
   },
   "standard": {
     "name": "Standard",
-    "price": "580 AZN",
-    "unit": "mo / ha",
     "badge": "Most Popular",
     "features": [
       "2 field visits per month",
@@ -36,8 +31,6 @@
   },
   "premium": {
     "name": "Premium",
-    "price": "800 AZN",
-    "unit": "mo / ha",
     "features": [
       "2 field visits per month",
       "Monthly report",
@@ -49,6 +42,10 @@
       "Online expert support — unlimited",
       "Daily remote system monitoring"
     ]
+  },
+  "inquiry": {
+    "title": "The right package for you",
+    "text": "We prepare a custom proposal based on site area, season stage, and your goals."
   },
   "note": "Package selection is made jointly based on site area, season stage, and yield targets. The first site visit is free."
 }
